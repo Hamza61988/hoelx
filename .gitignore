@@ -2,10 +2,12 @@
 /node_modules
 /front-end/node_modules
 /olx-web/node_modules
+/front-end/my-frontend/node_modules
 
 # Build Folders
 /front-end/build
 /front-end/dist
+/front-end/my-frontend/build
 
 # Environment Variables
 /.env

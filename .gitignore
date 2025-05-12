@@ -1,11 +1,13 @@
 # Node Modules
 /node_modules
-/frontend/node_modules
+/front-end/node_modules
+/olx-web/node_modules
 
-# Build and Distribution Folders
-/frontend/dist
-/frontend/build
+# Build Folders
+/front-end/build
+/front-end/dist
 
 # Environment Variables
 /.env
-/frontend/.env
+/front-end/.env
+/olx-web/.env

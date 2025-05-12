@@ -1,0 +1,32 @@
+/* Ensure that all text uses Roboto font */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bigcat {
+    margin-left: 9%;  /* 9% margin from the left for the entire container */
+}
+
+.cat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;  /* Items on the second line align to the left */
+    gap: 15px;  /* Reduce the space between items (this affects both rows) */
+}
+
+.category {
+    margin: 0;  /* Remove extra margin */
+    width: 130px;  /* Set a fixed width for each category */
+}
+
+.cat img {
+    height: 88px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.cat h1 {
+    font-size: 18px;
+    font-weight: 600; /* Use semi-bold for the heading */
+    margin-top: 5px;
+}

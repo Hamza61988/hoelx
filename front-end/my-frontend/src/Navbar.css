@@ -1,0 +1,115 @@
+.Main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    margin-right: 2px;
+}
+
+.motor, .property {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.motor h3, .property h3 {
+    margin: 0;
+}
+
+.Main img {
+    height: 28px;
+}
+
+nav {
+    padding: 20px;
+}
+
+.Main button {
+    background-color: transparent;
+    border: none;
+}
+
+.Main button:hover {
+    color: cyan;
+}
+
+/* Styles for the navbar options (dropdown, input, buttons) */
+.navbar-options {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between each element */
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.navbar-options select,
+.navbar-options input,
+.navbar-options button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.navbar-options select {
+    width: 200px; /* Adjust width for dropdown */
+}
+
+.navbar-options input {
+    width: 780px; /* Adjust width for input */
+}
+
+.navbar-options button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.navbar-options button:hover {
+    background-color: #0056b3;
+}
+
+.navbar-options button i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.dad {
+    margin-left: 9%;
+    
+    padding-bottom: 6px;
+}
+
+.parent {
+    
+    padding-bottom: 16px;
+}
+
+.alphaimg {
+    padding-bottom: 16px;
+    margin-left: 9%;
+}
+
+.horizontal-line {
+    width: 100%; /* Stretches the line to the full width of the screen */
+    border: 0; /* Removes default border */
+    height: 1px; /* Height of the line */
+    background-color: #ccc; /* Color of the line */
+    margin: 20px 0; /* Adds space above and below the line */
+  }
+  
+
+  
